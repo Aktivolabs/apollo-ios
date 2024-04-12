@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |ss|
     ss.source_files = 'Sources/Apollo/*.swift'
     ss.resources = ['scripts/check-and-run-apollo-cli.sh', 'scripts/check-and-run-apollo-codegen.sh']
+    ss.resource_bundles = {'Apollo' => ['Sources/Apollo/Resources/PrivacyInfo.xcprivacy']}
+
   end
 
   # Apollo provides exactly one persistent cache out-of-the-box, as a reasonable default choice for
@@ -31,6 +33,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'Sources/ApolloSQLite/*.swift'
     ss.dependency 'Apollo/Core'
     ss.dependency 'SQLite.swift', '~> 0.11.4'
+    ss.resource_bundles = {
+      'ApolloSQLite' => ['Sources/ApolloSQLite/Resources/PrivacyInfo.xcprivacy']
+    }
   end
 
   # Websocket and subscription support based on Starscream
@@ -38,6 +43,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'Sources/ApolloWebSocket/*.swift'
     ss.dependency 'Apollo/Core'
     ss.dependency 'Starscream', '~> 3.1.0'
+    ss.resource_bundles = {
+      'ApolloWebSocket' => ['Sources/ApolloWebSocket/Resources/PrivacyInfo.xcprivacy']
+    }
   end
 
 end

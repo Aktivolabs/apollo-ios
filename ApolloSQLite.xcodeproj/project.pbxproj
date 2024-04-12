@@ -97,6 +97,7 @@
 		54DDB0BE1EA1523E0009DD99 /* ApolloSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DDB0DF1EA1573C0009DD99 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = Carthage/Checkouts/SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
 		54DDB1AD1EA54F770009DD99 /* SQLiteNormalizedCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteNormalizedCache.swift; sourceTree = "<group>"; };
+		8E7B8A492BC91C690035F9EB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		90690D0E224334D600FC2E54 /* ApolloSQLite-Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloSQLite-Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		90690D0F224334DD00FC2E54 /* ApolloSQLite-Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloSQLite-Project-Release.xcconfig"; sourceTree = "<group>"; };
 		90690D10224334EC00FC2E54 /* ApolloSQLite-Target-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloSQLite-Target-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		54DDB0C01EA1523E0009DD99 /* ApolloSQLite */ = {
 			isa = PBXGroup;
 			children = (
+				8E7B8A482BC91C690035F9EB /* Resources */,
 				54DDB1AD1EA54F770009DD99 /* SQLiteNormalizedCache.swift */,
 				9FA86C5A1EA7B6D40073E1ED /* Info.plist */,
 			);
@@ -197,6 +199,14 @@
 				9F65B1281EC1B4080090B25F /* ApolloSQLiteTestSupport */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		8E7B8A482BC91C690035F9EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B8A492BC91C690035F9EB /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		90690D09224333F800FC2E54 /* Configuration */ = {

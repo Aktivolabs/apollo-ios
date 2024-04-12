@@ -55,6 +55,7 @@
 		72707473206D112900C131F6 /* MockWebSocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWebSocketTests.swift; sourceTree = "<group>"; };
 		72707474206D112900C131F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72707475206D112900C131F6 /* StarWarsWebSocketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsWebSocketTests.swift; sourceTree = "<group>"; };
+		8E7B8A4B2BC91C770035F9EB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		90690D0C224334C000FC2E54 /* ApolloWebSocket-Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloWebSocket-Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		90690D0D224334C900FC2E54 /* ApolloWebSocket-Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloWebSocket-Project-Release.xcconfig"; sourceTree = "<group>"; };
 		90690D12224334FD00FC2E54 /* ApolloWebSocket-Target-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ApolloWebSocket-Target-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +123,7 @@
 		72707469206D111A00C131F6 /* ApolloWebSocket */ = {
 			isa = PBXGroup;
 			children = (
+				8E7B8A4A2BC91C770035F9EB /* Resources */,
 				7270746A206D111A00C131F6 /* SplitNetworkTransport.swift */,
 				7270746B206D111A00C131F6 /* WebSocketTransport.swift */,
 				7270746C206D111A00C131F6 /* Info.plist */,
@@ -141,6 +143,14 @@
 			);
 			name = ApolloWebSocketTests;
 			path = Tests/ApolloWebSocketTests;
+			sourceTree = "<group>";
+		};
+		8E7B8A4A2BC91C770035F9EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B8A4B2BC91C770035F9EB /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		90690D0A2243342000FC2E54 /* Configuration */ = {
